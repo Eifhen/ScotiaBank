@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bundle.css">
+    <script src="index.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
+    <title>Document</title>
+</head>
+<body class="page-container">
+    <header id="header" class="header">
+        <div id="logo-box" class="logo-box"></div>
+        <nav class="navbar">
+            <div id="btn-search" class="navbar-search-button">
+                <i class="ri-search-line"></i>
+            </div>
+            <div id="search-content" class="search-content">
+                <div class="search">
+                    <i class="ri-search-line"></i>
+                    <input id="input-search" type="text" placeholder="Buscar.." />
+                </div>
+            </div>
+            <div  id="btn-menu-container" class="navbar-button">
+                <i id="btn-menu" class="ri-menu-line"></i>
+            </div>
+            <div id="menu" class="navbar-content">
+                <i id="btn-close" class="btn-close ri-close-line"></i>
+                <div class="logo-box-2">   
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                        <title>Asset 3</title>
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <path class="logo-color" d="M65.68,16.68H40.37A28,28,0,0,0,12.49,41.61h0A28.06,28.06,0,0,1,37,0H80.73Z"/>
+                                <path class="logo-color" d="M15.05,72.78H40.37A28.06,28.06,0,0,0,68.25,47.85h0a28,28,0,0,1-24.56,41.6H0Z"/>
+                                <circle class="logo-color" cx="40.37" cy="44.73" r="22.53"/>
+                            </g>
+                        </g>
+                    </svg>
+                    <a href="#">
+                        <i class="ri-lock-2-line"></i>
+                        Netbanking
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <div class="bancas-container">
+                        <h2>Bancas</h2>
+                        <div class="bancas">
+                            <a href="#">
+                                <span class="text-break">Banca</span> Personal
+                            </a>
+                            <a href="#">
+                                <span class="text-break">Banca</span> Premium
+                            </a>
+                            <a href="#">
+                                <span class="text-break">Banca</span> Coorporativa
+                            </a>
+                            <a href="#">
+                                <span class="text-break">Banca</span> Empresarial
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-container">
+                        <h2>Menú</h2>
+                        <ul class="menu">
+                            <li>
+                                Cuentas de Depósitos
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li>
+                                Tarjetas de Crédito
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li>
+                                Préstamos
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li>
+                                Inversiones
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li>
+                                Banca Seguros
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li>
+                                Tasas y Tarifas
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li>
+                                Noticias
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li>
+                                Acerca de Scotiabank
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="splide hero" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide ">
+                    <div class="circle">
+                        <div class="circle-mask"></div>
+                        <div class="img-mask"></div>
+                        <img src="./img/administrar.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Conoce nuestros Servicios</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Magnam veniam, repudiandae 
+                            consequatur tenetur perferendis quibusdam eius 
+                            facer...
+                        </p>
+                    </div>
+                </li>
+
+                <li class="splide__slide bg-blue ">
+                    <div class="circle">
+                        <div class="circle-mask"></div>
+                        <div class="img-mask"></div>
+                        <img src="./img/cajero.webp" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Accede a nuestro Scotia en línea</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Magnam veniam, repudiandae 
+                            consequatur tenetur perferendis quibusdam eius 
+                            facer...
+                        </p>
+                    </div>
+                </li>
+
+                <li class="splide__slide bg-dark ">
+                    <div class="circle">
+                        <div class="circle-mask"></div>
+                        <div class="img-mask"></div>
+                        <img src="./img/ahorrar.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Plan de inversión</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Magnam veniam, repudiandae 
+                            consequatur tenetur perferendis quibusdam eius 
+                            facer...
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="contacto" class="contacto ">
+        <div class="contact-title">
+            <h1>Comunicaciones</h1>
+            <p>Explora nuestros distintos canales</p>
+        </div>
+        <div class="contacto-content">
+            <div class="item">
+                <i class="ri-map-pin-2-line"></i>
+                <p><span class="text-break">Sucursales</span> y ATMS</p>
+            </div>
+            <div class="item">
+                <i class="ri-phone-line"></i>
+                <P><span class="text-break">Canales de</span> contacto</P>
+            </div>
+            <div class="item">
+                <i class="ri-user-line"></i>
+                <p><span class="text-break">Canales</span> Alternos</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <div class="servicios-title">
+            <h1>Servicios</h1>
+            <p>Explora nuestros servicios</p>
+        </div>
+        <div class="servicios-content">
+            <div class="servicio">
+                <img src="./img/ahorrar.jpg" alt="">
+                <div class="servicio-title">
+                    <h1>Hipotecas</h1>
+                    <p>Consulta nuestras hipotecas</p>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Omnis, ad vero iusto, quae sunt illum eius suscipit 
+                        perspiciatis laboriosam quis dolor
+                    </p>
+                </div>
+            </div>
+            <div class="servicio">
+                <img src="./img/jugar.jpg" alt="">
+                <div class="servicio-title">
+                    <h1>Préstamos</h1>
+                    <p>Consulta nuestros préstamos</p>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Omnis, ad vero iusto, quae sunt illum eius suscipit 
+                        perspiciatis laboriosam quis dolor
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="servicio">
+                <img src="./img/financiar.jpg" alt="">
+                <div class="servicio-title">
+                    <h1>Seguros</h1>
+                    <p>Consulta todos nuestros planes</p>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Omnis, ad vero iusto, quae sunt illum eius suscipit 
+                        perspiciatis laboriosam quis dolor
+                    </p>
+                </div>
+            </div>
+            <div class="servicio">
+                <img src="./img/importar.jpg" alt="">
+                <div class="servicio-title">
+                    <h1>Importaciones</h1>
+                    <p>Consulta todos nuestros planes</p>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Omnis, ad vero iusto, quae sunt illum eius suscipit 
+                        perspiciatis laboriosam quis dolor
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="noticias" class="noticias">
+        <div class="noticias-title">
+            <h1>Noticias Destacadas</h1>
+            <p><span class="text-break">Planificación de lo que sigue</span> en tu futuro financiero</p>
+        </div>
+        <div class="noticias-content">
+            <div class="noticia">
+                <img src="./img/importar.jpg" alt="">
+                <div class="noticia-content">
+                    <h1>Importaciones</h1>
+                    <p>Scotiabank aumentará los beneficios para las importaciones.</p>
+                    <a href="#">ver más</a>
+                </div>
+            </div>
+
+            <div class="noticia">
+                <img src="./img/negocio.png" alt="">
+                <div class="noticia-content">
+                    <h1>Pymes: todo lo que debes saber</h1>
+                    <p>Mira lo nuevo en nuestra plataforma digital</p>
+                    <a href="#">ver más</a>
+                </div>
+            </div>
+
+            <div class="noticia">
+                <img src="./img/people-2.jpg" alt="">
+                <div class="noticia-content">
+                    <h1>Scotia en línea</h1>
+                    <p>Mira lo nuevo en nuestra plataforma digital</p>
+                    <a href="#">ver más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sucursales" class="sucursales">
+        <div class="info">
+            <div>
+                <h1>Ubique sucursales cercanas a usted</h1>
+                <p>
+                    Obtenga información sobre la ubicación de las sucursales y 
+                    cajeros automáticos de Scotiabank en República Dominicana.
+                </p>
+            </div>
+            <button>Buscar Sucursal</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="autor">
+            <h1>Gabriel Jiménez</h1>
+            <p>26 01 2023</p>
+        </div>
+    </footer>
+
+</body>
+</html>
